@@ -8,11 +8,11 @@ class Enlace2 extends StatelessWidget {
   Widget build(BuildContext context) {
   return Scaffold(
       appBar: AppBar(
-        title: const Text("Segunda pantalla"),
+        title: const Text("Imagen que me represente"),
       ),
-      body: const Center(
-        child: Text("Parte central"),
-      ),
+      body: Center(
+          child: Image.asset("assets/images/esqueletoFumando.jpg",)
+        ),
     );
   }
 }

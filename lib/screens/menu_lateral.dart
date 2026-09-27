@@ -38,7 +38,7 @@ class MenuLateral extends StatelessWidget {
             ),
           ),
           ListTile(
-            title: const Text("Imagen"),
+            title: const Text("Representacion"),
             onTap: () {
               Navigator.of(context).pop();
               Navigator.of(context).push(MaterialPageRoute(
@@ -49,7 +49,7 @@ class MenuLateral extends StatelessWidget {
             color: Colors.indigo,
             child: ListTile(
               title: const Text(
-                "Columnas",
+                "Imagenes",
                 style: TextStyle(color: Colors.white),
                 ),
               onTap: () {

@@ -8,10 +8,17 @@ class Enlace3 extends StatelessWidget {
   Widget build(BuildContext context) {
   return Scaffold(
       appBar: AppBar(
-        title: const Text("Segunda pantalla"),
+        title: const Text("Columna de imagenes"),
       ),
-      body: const Center(
-        child: Text("Parte central"),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center, 
+          children: [
+            Image.asset("assets/images/esqueleto1.jpg", width: 100, height: 100,),
+            Image.asset("assets/images/esqueleto2.jpg", width: 100, height: 100),
+            Image.asset("assets/images/esqueleto3.jpg", width: 100, height: 100),
+          ],
+        ),
       ),
     );
   }

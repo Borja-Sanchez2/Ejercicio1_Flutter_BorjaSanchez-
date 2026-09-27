@@ -392,6 +392,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.0"
+  uicons_pro:
+    dependency: "direct main"
+    description:
+      name: uicons_pro
+      sha256: "52c582e1efef4549bca3dbfd2f85a83609af52ce90f351c927b59e7b018a8021"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
   vector_math:
     dependency: transitive
     description:
