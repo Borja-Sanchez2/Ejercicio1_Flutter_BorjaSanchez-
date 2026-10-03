@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:uicons_pro/uicons_pro.dart';
 
 class Enlace5 extends StatelessWidget {
   const Enlace5({super.key});
@@ -15,11 +14,11 @@ class Enlace5 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, 
           children: [
-            Icon(UIconsPro.boldRounded.access_control, size: 40,),
-            Icon(UIconsPro.boldRounded.access_denied, size: 40,),
-            Icon(UIconsPro.boldRounded.acid_rain, size: 40,),
-            Icon(UIconsPro.boldRounded.add_basket, size: 40,),
-            Icon(UIconsPro.boldRounded.add_document, size: 40,),
+            Image.asset("assets/images/bebe1.jpg", width: 120, height: 120,),
+            Image.asset("assets/images/bebe2.jpg", width: 120, height: 120,),
+            Image.asset("assets/images/bebe3.jpg", width: 120, height: 120,),
+            Image.asset("assets/images/bebe4.jpg", width: 120, height: 120,),
+            Image.asset("assets/images/bebe5.jpg", width: 120, height: 120,),
           ],
         ),
       ),

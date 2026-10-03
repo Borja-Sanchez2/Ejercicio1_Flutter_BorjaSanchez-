@@ -14,9 +14,9 @@ class Enlace3 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, 
           children: [
-            Image.asset("assets/images/esqueleto1.jpg", width: 100, height: 100,),
-            Image.asset("assets/images/esqueleto2.jpg", width: 100, height: 100),
-            Image.asset("assets/images/esqueleto3.jpg", width: 100, height: 100),
+            Image.asset("assets/images/esqueleto1.jpg", width: 80, height: 80,),
+            Image.asset("assets/images/esqueleto2.jpg", width: 80, height: 80),
+            Image.asset("assets/images/esqueleto3.jpg", width: 80, height: 80),
           ],
         ),
       ),

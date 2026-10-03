@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           ),
           drawer: const MenuLateral(),
           body: const Center(
-            child: Text("Parte principal"),
+            child: Text("Toca las 3 lineas arriba a la izquierda"),
           ),
         ));
   }

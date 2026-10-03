@@ -15,11 +15,11 @@ class Enlace4 extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center, 
           children: [
-          Icon(UIconsPro.boldRounded.access_control, size: 40,),
-          Icon(UIconsPro.boldRounded.access_denied, size: 40,),
-          Icon(UIconsPro.boldRounded.acid_rain, size: 40,),
-          Icon(UIconsPro.boldRounded.add_basket, size: 40,),
-          Icon(UIconsPro.boldRounded.add_document, size: 40,),
+          Icon(UIconsPro.boldRounded.access_control, size: 60,),
+          Icon(UIconsPro.boldRounded.access_denied, size: 60,),
+          Icon(UIconsPro.boldRounded.acid_rain, size: 60,),
+          Icon(UIconsPro.boldRounded.add_basket, size: 60,),
+          Icon(UIconsPro.boldRounded.add_document, size: 60,),
           ],
         ),
       ),

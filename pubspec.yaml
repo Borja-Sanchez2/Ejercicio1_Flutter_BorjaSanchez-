@@ -63,6 +63,11 @@ flutter:
     - assets/images/esqueleto1.jpg
     - assets/images/esqueleto2.jpg
     - assets/images/esqueleto3.jpg
+    - assets/images/bebe1.jpg
+    - assets/images/bebe2.jpg
+    - assets/images/bebe3.jpg
+    - assets/images/bebe4.jpg
+    - assets/images/bebe5.jpg
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
