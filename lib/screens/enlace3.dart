@@ -8,7 +8,7 @@ class Enlace3 extends StatelessWidget {
   Widget build(BuildContext context) {
   return Scaffold(
       appBar: AppBar(
-        title: const Text("Columna de imagenes"),
+        title: const Text("Imagenes"),
       ),
       body: Center(
         child: Column(

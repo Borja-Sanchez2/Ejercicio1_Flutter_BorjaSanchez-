@@ -8,7 +8,7 @@ class Enlace5 extends StatelessWidget {
   Widget build(BuildContext context) {
   return Scaffold(
       appBar: AppBar(
-        title: const Text("Iconos en Columnas"),
+        title: const Text("Imagenes en Columnas"),
       ),
       body: Center(
         child: Column(

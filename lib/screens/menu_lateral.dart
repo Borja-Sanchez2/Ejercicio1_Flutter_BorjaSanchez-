@@ -4,6 +4,10 @@ import 'enlace2.dart';
 import 'enlace3.dart';
 import 'enlace4.dart';
 import 'enlace5.dart';
+import 'enlace6.dart';
+import 'enlace7.dart';
+import 'enlace8.dart';
+import 'enlace9.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -78,6 +82,50 @@ class MenuLateral extends StatelessWidget {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (BuildContext context) => const Enlace5()));
+              },
+            ),
+          ),
+          ListTile(
+            title: const Text("Contenedores"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => const Enlace6()));
+            },
+          ),
+          Ink(
+            color: Colors.indigo,
+            child: ListTile(
+              title: const Text(
+                "NetworkImage",
+                style: TextStyle(color: Colors.white),
+                ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => const Enlace7()));
+              },
+            ),
+          ),
+          ListTile(
+            title: const Text("Piramide"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => const Enlace8()));
+            },
+          ),
+          Ink(
+            color: Colors.indigo,
+            child: ListTile(
+              title: const Text(
+                "Challenge 1",
+                style: TextStyle(color: Colors.white),
+                ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => const Enlace9()));
               },
             ),
           ),
